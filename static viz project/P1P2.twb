@@ -1,0 +1,991 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20233.23.1227.1336                               -->
+<workbook original-version='18.1' source-build='2023.3.1 (20233.23.1227.1336)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='SR_23.11.16_unauthorized-immigrants-table-4' inline='true' name='federated.0qhkr4d14fa54p18wvx7v0473wcs' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='SR_23.11.16_unauthorized-immigrants-table-4' name='textscan.1n0uvwp05oxq9p194j8ac1ukb3rh'>
+            <connection class='textscan' directory='G:/我的云端硬盘/SI 649/Project/static viz project' filename='SR_23.11.16_unauthorized-immigrants-table-4.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1n0uvwp05oxq9p194j8ac1ukb3rh' name='SR_23.11.16_unauthorized-immigrants-table-4.csv' table='[SR_23.11.16_unauthorized-immigrants-table-4#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='zh_CN' separator=','>
+            <column datatype='string' name='State' ordinal='0' />
+            <column datatype='real' name='Unauthorized immigrant workers' ordinal='1' />
+            <column datatype='real' name='Unauthorized immigrant % of labor force' ordinal='2' />
+            <column datatype='string' name='Industry with the most unauthorized immigrant workers' ordinal='3' />
+            <column datatype='string' name='Industry with the largest % of workers who are unauthorized immigrants' ordinal='4' />
+            <column datatype='string' name='Occupation with the most unauthorized immigrant workers' ordinal='5' />
+            <column datatype='string' name='Occupation with the largest % of workers who are unauthorized immigrants' ordinal='6' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1n0uvwp05oxq9p194j8ac1ukb3rh' name='SR_23.11.16_unauthorized-immigrants-table-4.csv' table='[SR_23.11.16_unauthorized-immigrants-table-4#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='zh_CN' separator=','>
+            <column datatype='string' name='State' ordinal='0' />
+            <column datatype='real' name='Unauthorized immigrant workers' ordinal='1' />
+            <column datatype='real' name='Unauthorized immigrant % of labor force' ordinal='2' />
+            <column datatype='string' name='Industry with the most unauthorized immigrant workers' ordinal='3' />
+            <column datatype='string' name='Industry with the largest % of workers who are unauthorized immigrants' ordinal='4' />
+            <column datatype='string' name='Occupation with the most unauthorized immigrant workers' ordinal='5' />
+            <column datatype='string' name='Occupation with the largest % of workers who are unauthorized immigrants' ordinal='6' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[SR_23.11.16_unauthorized-immigrants-table-4.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;zh_Hans_CN&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;¥&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;zh_CN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[State]</local-name>
+            <parent-name>[SR_23.11.16_unauthorized-immigrants-table-4.csv]</parent-name>
+            <remote-alias>State</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LZH_RCN' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SR_23.11.16_unauthorized-immigrants-table-4.csv_659CA23480E2428D9273EA883CCCCA28]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Unauthorized immigrant workers</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Unauthorized immigrant workers]</local-name>
+            <parent-name>[SR_23.11.16_unauthorized-immigrants-table-4.csv]</parent-name>
+            <remote-alias>Unauthorized immigrant workers</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SR_23.11.16_unauthorized-immigrants-table-4.csv_659CA23480E2428D9273EA883CCCCA28]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Unauthorized immigrant % of labor force</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Unauthorized immigrant % of labor force]</local-name>
+            <parent-name>[SR_23.11.16_unauthorized-immigrants-table-4.csv]</parent-name>
+            <remote-alias>Unauthorized immigrant % of labor force</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SR_23.11.16_unauthorized-immigrants-table-4.csv_659CA23480E2428D9273EA883CCCCA28]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Industry with the most unauthorized immigrant workers</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Industry with the most unauthorized immigrant workers]</local-name>
+            <parent-name>[SR_23.11.16_unauthorized-immigrants-table-4.csv]</parent-name>
+            <remote-alias>Industry with the most unauthorized immigrant workers</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LZH_RCN' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SR_23.11.16_unauthorized-immigrants-table-4.csv_659CA23480E2428D9273EA883CCCCA28]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Industry with the largest % of workers who are unauthorized immigrants</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Industry with the largest % of workers who are unauthorized immigrants]</local-name>
+            <parent-name>[SR_23.11.16_unauthorized-immigrants-table-4.csv]</parent-name>
+            <remote-alias>Industry with the largest % of workers who are unauthorized immigrants</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LZH_RCN' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SR_23.11.16_unauthorized-immigrants-table-4.csv_659CA23480E2428D9273EA883CCCCA28]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Occupation with the most unauthorized immigrant workers</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Occupation with the most unauthorized immigrant workers]</local-name>
+            <parent-name>[SR_23.11.16_unauthorized-immigrants-table-4.csv]</parent-name>
+            <remote-alias>Occupation with the most unauthorized immigrant workers</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LZH_RCN' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SR_23.11.16_unauthorized-immigrants-table-4.csv_659CA23480E2428D9273EA883CCCCA28]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Occupation with the largest % of workers who are unauthorized immigrants</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Occupation with the largest % of workers who are unauthorized immigrants]</local-name>
+            <parent-name>[SR_23.11.16_unauthorized-immigrants-table-4.csv]</parent-name>
+            <remote-alias>Occupation with the largest % of workers who are unauthorized immigrants</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LZH_RCN' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SR_23.11.16_unauthorized-immigrants-table-4.csv_659CA23480E2428D9273EA883CCCCA28]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Industry with the largest % of workers who are unauthorized immigrants]' role='dimension' type='nominal' />
+      <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column datatype='real' name='[Unauthorized immigrant workers]' role='dimension' type='ordinal' />
+      <_.fcp.ObjectModelTableType.true...column caption='SR_23.11.16_unauthorized-immigrants-table-4.csv' datatype='table' name='[__tableau_internal_object_id__].[SR_23.11.16_unauthorized-immigrants-table-4.csv_659CA23480E2428D9273EA883CCCCA28]' role='measure' type='quantitative' />
+      <column-instance column='[Industry with the largest % of workers who are unauthorized immigrants]' derivation='None' name='[none:Industry with the largest % of workers who are unauthorized immigrants:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Unauthorized immigrant workers]' derivation='None' name='[none:Unauthorized immigrant workers:ok]' pivot='key' type='ordinal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Unauthorized immigrant workers:ok]' type='palette'>
+            <map to='#499894'>
+              <bucket>40000.0</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>625000.0</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>190000.0</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>20000.0</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>250000.0</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>65000.0</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>45000.0</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>1250000.0</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>25000.0</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>300000.0</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>120000.0</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>5000.0</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>200000.0</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>90000.0</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>30000.0</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>325000.0</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>70000.0</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>75000.0</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>100000.0</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>150000.0</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>50000.0</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>1450000.0</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>35000.0</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>500000.0</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>10000.0</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>210000.0</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>80000.0</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>55000.0</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>15000.0</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>220000.0</bucket>
+            </map>
+            <map to='#ffffff'>
+              <bucket>%null%</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Industry with the largest % of workers who are unauthorized immigrants:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Agriculture&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Leisure/Hospitality&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Educational/Health&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;z&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Construction&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;Manufacturing&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Business services&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;美国&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='SR_23.11.16_unauthorized-immigrants-table-4.csv' id='SR_23.11.16_unauthorized-immigrants-table-4.csv_659CA23480E2428D9273EA883CCCCA28'>
+            <properties context=''>
+              <relation connection='textscan.1n0uvwp05oxq9p194j8ac1ukb3rh' name='SR_23.11.16_unauthorized-immigrants-table-4.csv' table='[SR_23.11.16_unauthorized-immigrants-table-4#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='zh_CN' separator=','>
+                  <column datatype='string' name='State' ordinal='0' />
+                  <column datatype='real' name='Unauthorized immigrant workers' ordinal='1' />
+                  <column datatype='real' name='Unauthorized immigrant % of labor force' ordinal='2' />
+                  <column datatype='string' name='Industry with the most unauthorized immigrant workers' ordinal='3' />
+                  <column datatype='string' name='Industry with the largest % of workers who are unauthorized immigrants' ordinal='4' />
+                  <column datatype='string' name='Occupation with the most unauthorized immigrant workers' ordinal='5' />
+                  <column datatype='string' name='Occupation with the largest % of workers who are unauthorized immigrants' ordinal='6' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Industry Count with the largest % of workers who are unauthorized immigrants in Different States'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000' fontname='Tableau Bold' fontsize='18'>Industry Count with the largest % of workers who are unauthorized immigrants in Different States</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='SR_23.11.16_unauthorized-immigrants-table-4' name='federated.0qhkr4d14fa54p18wvx7v0473wcs' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0qhkr4d14fa54p18wvx7v0473wcs'>
+            <column datatype='string' name='[Industry with the largest % of workers who are unauthorized immigrants]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Industry with the most unauthorized immigrant workers]' role='dimension' type='nominal' />
+            <column-instance column='[Industry with the largest % of workers who are unauthorized immigrants]' derivation='Count' name='[cnt:Industry with the largest % of workers who are unauthorized immigrants:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Industry with the most unauthorized immigrant workers]' derivation='Count' name='[cnt:Industry with the most unauthorized immigrant workers:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Industry with the largest % of workers who are unauthorized immigrants]' derivation='None' name='[none:Industry with the largest % of workers who are unauthorized immigrants:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0qhkr4d14fa54p18wvx7v0473wcs].[none:Industry with the largest % of workers who are unauthorized immigrants:nk]' kind='hide'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Industry with the largest % of workers who are unauthorized immigrants:nk]' />
+              <groupfilter function='member' level='[none:Industry with the largest % of workers who are unauthorized immigrants:nk]' member='&quot;z&quot;' />
+            </groupfilter>
+          </filter>
+          <computed-sort column='[federated.0qhkr4d14fa54p18wvx7v0473wcs].[none:Industry with the largest % of workers who are unauthorized immigrants:nk]' direction='DESC' using='[federated.0qhkr4d14fa54p18wvx7v0473wcs].[cnt:Industry with the most unauthorized immigrant workers:qk]' />
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0qhkr4d14fa54p18wvx7v0473wcs].[cnt:Industry with the most unauthorized immigrant workers:qk]' scope='rows' value='Industry with the most unauthorized immigrant workers Count' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0qhkr4d14fa54p18wvx7v0473wcs].[none:Industry with the largest % of workers who are unauthorized immigrants:nk]' value='153' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0qhkr4d14fa54p18wvx7v0473wcs].[none:Industry with the largest % of workers who are unauthorized immigrants:nk]' />
+              <text column='[federated.0qhkr4d14fa54p18wvx7v0473wcs].[cnt:Industry with the largest % of workers who are unauthorized immigrants:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0qhkr4d14fa54p18wvx7v0473wcs].[cnt:Industry with the most unauthorized immigrant workers:qk]</rows>
+        <cols>[federated.0qhkr4d14fa54p18wvx7v0473wcs].[none:Industry with the largest % of workers who are unauthorized immigrants:nk]</cols>
+      </table>
+      <simple-id uuid='{421E2071-15AE-4F36-AB47-DF1F1FC2D738}' />
+    </worksheet>
+    <worksheet name='Unauthorized Immigrant % of Labor Force in US'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontname='Tableau Bold' fontsize='18'>Unauthorized Immigrant % of Labor Force in Each State</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='SR_23.11.16_unauthorized-immigrants-table-4' name='federated.0qhkr4d14fa54p18wvx7v0473wcs' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0qhkr4d14fa54p18wvx7v0473wcs'>
+            <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column datatype='real' name='[Unauthorized immigrant % of labor force]' role='measure' type='quantitative' />
+            <column-instance column='[State]' derivation='None' name='[none:State:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Unauthorized immigrant % of labor force]' derivation='Sum' name='[sum:Unauthorized immigrant % of labor force:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0qhkr4d14fa54p18wvx7v0473wcs].[Longitude (generated)]' field-type='quantitative' max='32723995.334268976' min='21130293.412868813' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.0qhkr4d14fa54p18wvx7v0473wcs].[Latitude (generated)]' field-type='quantitative' max='8450478.7090817615' min='1677062.5274419328' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0qhkr4d14fa54p18wvx7v0473wcs].[sum:Unauthorized immigrant % of labor force:qk]' num-steps='5' type='interpolated' />
+          </style-rule>
+          <style-rule element='annotation'>
+            <format attr='line-end' id='annotation_0' value='arrow' />
+          </style-rule>
+          <style-rule element='map-layer'>
+            <format attr='enabled' id='background' value='false' />
+            <format attr='enabled' id='barrier_line-land-polygon' value='false' />
+            <format attr='enabled' id='barrier_line-land-line' value='false' />
+            <format attr='enabled' id='national_park' value='false' />
+            <format attr='enabled' id='pitch' value='false' />
+            <format attr='enabled' id='industrial' value='false' />
+            <format attr='enabled' id='built-up-area' value='false' />
+            <format attr='enabled' id='water' value='false' />
+            <format attr='enabled' id='waterway-river-canal' value='false' />
+            <format attr='enabled' id='aeroway-polygon' value='false' />
+            <format attr='enabled' id='aeroway-runway' value='false' />
+            <format attr='enabled' id='aeroway-taxiway' value='false' />
+            <format attr='enabled' id='parks' value='false' />
+            <format attr='enabled' id='landcover_wood' value='false' />
+            <format attr='enabled' id='landcover_scrub' value='false' />
+            <format attr='enabled' id='landcover_grass' value='false' />
+            <format attr='enabled' id='landcover_crop' value='false' />
+            <format attr='enabled' id='admin-0-boundaries-bg' value='false' />
+            <format attr='enabled' id='admin-0-boundaries' value='false' />
+            <format attr='enabled' id='admin-0-boundaries-dispute' value='false' />
+            <format attr='enabled' id='admin-0-label-5th-tier' value='false' />
+            <format attr='enabled' id='admin-0-label-4th-tier' value='false' />
+            <format attr='enabled' id='admin-0-label-3rd-tier' value='false' />
+            <format attr='enabled' id='admin-0-label-2nd-tier' value='false' />
+            <format attr='enabled' id='admin-0-label-1st-tier' value='false' />
+            <format attr='enabled' id='admin-0-boundaries-bg-sub' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-supress-bg' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-sm-parents-bg' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-md-parents-bg' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-lg-parents-bg' value='false' />
+            <format attr='enabled' id='admin-0-boundaries-dispute-sub' value='false' />
+            <format attr='enabled' id='admin-0-boundaries-sub' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-supress' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-sm-parents' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-md-parents' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-lg-parents' value='false' />
+            <format attr='enabled' id='admin1-water-lines-usa-tableau' value='false' />
+            <format attr='enabled' id='9-dash-line-casing' value='false' />
+            <format attr='enabled' id='9-dash-line' value='false' />
+            <format attr='enabled' id='admin-1-label-9th-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-8th-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-7th-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-6th-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-5th-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-4th-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-3rd-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-2nd-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-1st-tier' value='false' />
+            <format attr='enabled' id='us-admin-1-label-abbr-3rd-tier' value='false' />
+            <format attr='enabled' id='us-admin-1-label-abbr-2nd-tier' value='false' />
+            <format attr='enabled' id='us-admin-1-label-abbr-1st-tier' value='false' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.0qhkr4d14fa54p18wvx7v0473wcs].[none:State:nk]' />
+              <color column='[federated.0qhkr4d14fa54p18wvx7v0473wcs].[sum:Unauthorized immigrant % of labor force:qk]' />
+              <text column='[federated.0qhkr4d14fa54p18wvx7v0473wcs].[sum:Unauthorized immigrant % of labor force:qk]' />
+              <geometry column='[federated.0qhkr4d14fa54p18wvx7v0473wcs].[Geometry (generated)]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0qhkr4d14fa54p18wvx7v0473wcs].[Latitude (generated)]</rows>
+        <cols>[federated.0qhkr4d14fa54p18wvx7v0473wcs].[Longitude (generated)]</cols>
+        <annotations>
+          <annotation class='area' id='0' text-pinx='0.5' text-piny='0.5' text-width-delta='-18'>
+            <formatted-text>
+              <run fontname='Tableau Bold' fontsize='12'>It&apos;s very obvious that the unauthorized immigration problem is more severe in southern states of US rather than that of northern states.</run>
+            </formatted-text>
+            <top-left>
+              <visual-coordinate class='axis'>
+                <x-coord axis-value='24824806.309318211'>
+                  <node-reference>
+                    <axis>[federated.0qhkr4d14fa54p18wvx7v0473wcs].[Longitude (generated)]</axis>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='3232304.0361398626'>
+                  <node-reference>
+                    <axis>[federated.0qhkr4d14fa54p18wvx7v0473wcs].[Latitude (generated)]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+                <projection name='EPSG:3857' u='-136.99497067032723' v='27.86770026475358' />
+              </visual-coordinate>
+            </top-left>
+            <bottom-right>
+              <visual-coordinate class='axis'>
+                <x-coord axis-value='28620808.712615363'>
+                  <node-reference>
+                    <axis>[federated.0qhkr4d14fa54p18wvx7v0473wcs].[Longitude (generated)]</axis>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='2297328.0854719388'>
+                  <node-reference>
+                    <axis>[federated.0qhkr4d14fa54p18wvx7v0473wcs].[Latitude (generated)]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+                <projection name='EPSG:3857' u='-102.89490089596455' v='20.204968099058899' />
+              </visual-coordinate>
+            </bottom-right>
+            <text x='0.5' y='0.5' />
+          </annotation>
+        </annotations>
+      </table>
+      <simple-id uuid='{E3D1975F-43E3-4746-8169-D8ED018F8CD7}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Unauthorized Immigrant % of Labor Force in US'>
+      <cards>
+        <edge name='left'>
+          <strip size='180'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0qhkr4d14fa54p18wvx7v0473wcs].[sum:Unauthorized immigrant % of labor force:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0qhkr4d14fa54p18wvx7v0473wcs].[none:State:nk]</field>
+            <field>[federated.0qhkr4d14fa54p18wvx7v0473wcs].[none:Unauthorized immigrant workers:ok]</field>
+            <field>[federated.0qhkr4d14fa54p18wvx7v0473wcs].[sum:Unauthorized immigrant workers:qk]</field>
+          </color-one-way>
+        </highlight>
+        <default-map-tool-selection tool='1' />
+      </viewpoint>
+      <simple-id uuid='{4BFA85A0-0E90-46A3-BD96-88C35AE928FD}' />
+    </window>
+    <window class='worksheet' name='Industry Count with the largest % of workers who are unauthorized immigrants in Different States'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.0qhkr4d14fa54p18wvx7v0473wcs].[none:Industry with the largest % of workers who are unauthorized immigrants:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0qhkr4d14fa54p18wvx7v0473wcs].[none:Industry with the largest % of workers who are unauthorized immigrants:nk]</field>
+            <field>[federated.0qhkr4d14fa54p18wvx7v0473wcs].[none:Industry with the most unauthorized immigrant workers:nk]</field>
+            <field>[federated.0qhkr4d14fa54p18wvx7v0473wcs].[none:State:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{0195D5B2-2588-40F7-9288-705482F87F11}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Industry Count with the largest % of workers who are unauthorized immigrants in Different States' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Unauthorized Immigrant % of Labor Force in US' width='192'>
+      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
+      AeG1pT8709EUAAAAAElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
